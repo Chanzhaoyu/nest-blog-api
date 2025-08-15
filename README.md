@@ -49,9 +49,9 @@ src/
 ## 🛠️ 快速开始
 
 ### 环境要求
-- Node.js >= 16.0.0
+- Node.js >= 18.0.0
 - PostgreSQL >= 12.0
-- pnpm (推荐) 或 npm
+- pnpm
 
 ### 1. 克隆项目
 ```bash
@@ -99,9 +99,6 @@ pnpm prisma generate
 
 # 运行数据库迁移
 pnpm prisma migrate dev --name init
-
-# (可选) 填充示例数据
-pnpm prisma db seed
 ```
 
 ### 5. 启动开发服务器
@@ -214,5 +211,5 @@ pnpm run start:prod
 
 ## 📄 许可证
 
-本项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件了解详情。
+[LICENSE](LICENSE)
 
