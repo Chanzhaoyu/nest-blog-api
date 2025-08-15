@@ -1,0 +1,14 @@
+import { Controller, Get } from '@nestjs/common';
+import { AppService } from './app.service';
+import { ResponseUtil } from './common';
+
+@Controller()
+export class AppController {
+  constructor(private readonly appService: AppService) {}
+
+  @Get()
+  getHello() {
+    const data = this.appService.getHello();
+    return ResponseUtil.success(data, '欢迎使用博客系统');
+  }
+}
