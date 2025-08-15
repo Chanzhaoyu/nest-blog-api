@@ -211,5 +211,5 @@ pnpm run start:prod
 
 ## 📄 许可证
 
-[LICENSE](LICENSE)
+[MIT](./license)
 
